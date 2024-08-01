@@ -1,0 +1,62 @@
+{
+    "context": {
+        "domain": "ONDC:RET12",
+        "country": "IND",
+        "city": "std:080",
+        "action": "issue",
+        "core_version": "1.0.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_uri": "https://fashionpulse.in/bapl/",
+        "transaction_id": "47b2c7d6-286f-4d50-81cc-6b5a5533495f",
+        "message_id": "21120f3f-b6f4-4be7-9de1-5fc44bd41cf1",
+        "timestamp": "2024-08-01T10:58:38.047Z",
+        "bpp_id": "fashionpulse.in",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "issue": {
+            "id": "9e5fb5f8-057d-476c-b4ff-96c4553a8c0e",
+            "status": "CLOSED",
+            "issue_actions": {
+                "complainant_actions": [{
+                    "complainant_action": "OPEN",
+                    "short_desc": "Complaint created",
+                    "updated_at": "2024-07-30T05:49:24.080Z",
+                    "updated_by": {
+                        "org": {
+                            "name": "buyer-app-preprod-v2.ondc.org::ONDC:RET12"
+                        },
+                        "contact": {
+                            "phone": "7690026687",
+                            "email": "ganesh.y@mygetepay.com"
+                        },
+                        "person": {
+                            "name": "Ganesh Yadav"
+                        }
+                    }
+                }, {
+                    "complainant_action": "CLOSE",
+                    "short_desc": "Complaint closed",
+                    "updated_at": "2024-08-01T10:54:46.917Z",
+                    "updated_by": {
+                        "org": {
+                            "name": "buyer-app-preprod-v2.ondc.org::ONDC:RET12"
+                        },
+                        "contact": {
+                            "phone": "7690026687",
+                            "email": "ganesh.y@mygetepay.com"
+                        },
+                        "person": {
+                            "name": "Ganesh Yadav"
+                        }
+                    }
+                }]
+            },
+            "rating": "THUMBS-UP",
+            "created_at": "2024-07-30T05:45:34.715Z",
+            "updated_at": "2024-08-01T10:54:46.917Z",
+            "issue_type": "ISSUE"
+        }
+    }
+}
